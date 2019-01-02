@@ -148,6 +148,7 @@
 /**
  * Colors
  */
+
 $color-gray-05: #f1f1f1;
 $color-gray-08: #ebebeb;
 $color-gray-10: #e5e5e5;
@@ -160,6 +161,77 @@ $color-gray-35: #a6a6a6;
 $color-gray-50: #808080;
 $color-gray-75: #444;
 $color-gray-87: #222;
+
+$color-one: #6494aa;
+$color-two: #90a959;
+$color-three: #e6aa68;
+$color-four: #a63d40;
+$color-five: #151515;
+
+$color-one-05: change-color($color-one, $lightness: lightness(#f1f1f1));
+$color-one-08: change-color($color-one, $lightness: lightness(#ebebeb));
+$color-one-10: change-color($color-one, $lightness: lightness(#e5e5e5));
+$color-one-13: change-color($color-one, $lightness: lightness(#ddd));
+$color-one-15: change-color($color-one, $lightness: lightness(#d9d9d9));
+$color-one-20: change-color($color-one, $lightness: lightness(#cccccc));
+$color-one-25: change-color($color-one, $lightness: lightness(#bfbfbf));
+$color-one-30: change-color($color-one, $lightness: lightness(#b3b3b3));
+$color-one-35: change-color($color-one, $lightness: lightness(#a6a6a6));
+$color-one-50: change-color($color-one, $lightness: lightness(#808080));
+$color-one-75: change-color($color-one, $lightness: lightness(#444));
+$color-one-87: change-color($color-one, $lightness: lightness(#222));
+
+$color-two-05: change-color($color-two, $lightness: lightness(#f1f1f1));
+$color-two-08: change-color($color-two, $lightness: lightness(#ebebeb));
+$color-two-10: change-color($color-two, $lightness: lightness(#e5e5e5));
+$color-two-13: change-color($color-two, $lightness: lightness(#ddd));
+$color-two-15: change-color($color-two, $lightness: lightness(#d9d9d9));
+$color-two-20: change-color($color-two, $lightness: lightness(#cccccc));
+$color-two-25: change-color($color-two, $lightness: lightness(#bfbfbf));
+$color-two-30: change-color($color-two, $lightness: lightness(#b3b3b3));
+$color-two-35: change-color($color-two, $lightness: lightness(#a6a6a6));
+$color-two-50: change-color($color-two, $lightness: lightness(#808080));
+$color-two-75: change-color($color-two, $lightness: lightness(#444));
+$color-two-87: change-color($color-two, $lightness: lightness(#222));
+
+$color-three-05: change-color($color-three, $lightness: lightness(#f1f1f1));
+$color-three-08: change-color($color-three, $lightness: lightness(#ebebeb));
+$color-three-10: change-color($color-three, $lightness: lightness(#e5e5e5));
+$color-three-13: change-color($color-three, $lightness: lightness(#ddd));
+$color-three-15: change-color($color-three, $lightness: lightness(#d9d9d9));
+$color-three-20: change-color($color-three, $lightness: lightness(#cccccc));
+$color-three-25: change-color($color-three, $lightness: lightness(#bfbfbf));
+$color-three-30: change-color($color-three, $lightness: lightness(#b3b3b3));
+$color-three-35: change-color($color-three, $lightness: lightness(#a6a6a6));
+$color-three-50: change-color($color-three, $lightness: lightness(#808080));
+$color-three-75: change-color($color-three, $lightness: lightness(#444));
+$color-three-87: change-color($color-three, $lightness: lightness(#222));
+
+$color-four-05: change-color($color-four, $lightness: lightness(#f1f1f1));
+$color-four-08: change-color($color-four, $lightness: lightness(#ebebeb));
+$color-four-10: change-color($color-four, $lightness: lightness(#e5e5e5));
+$color-four-13: change-color($color-four, $lightness: lightness(#ddd));
+$color-four-15: change-color($color-four, $lightness: lightness(#d9d9d9));
+$color-four-20: change-color($color-four, $lightness: lightness(#cccccc));
+$color-four-25: change-color($color-four, $lightness: lightness(#bfbfbf));
+$color-four-30: change-color($color-four, $lightness: lightness(#b3b3b3));
+$color-four-35: change-color($color-four, $lightness: lightness(#a6a6a6));
+$color-four-50: change-color($color-four, $lightness: lightness(#808080));
+$color-four-75: change-color($color-four, $lightness: lightness(#444));
+$color-four-87: change-color($color-four, $lightness: lightness(#222));
+
+$color-five-05: change-color($color-five, $lightness: lightness(#f1f1f1));
+$color-five-08: change-color($color-five, $lightness: lightness(#ebebeb));
+$color-five-10: change-color($color-five, $lightness: lightness(#e5e5e5));
+$color-five-13: change-color($color-five, $lightness: lightness(#ddd));
+$color-five-15: change-color($color-five, $lightness: lightness(#d9d9d9));
+$color-five-20: change-color($color-five, $lightness: lightness(#cccccc));
+$color-five-25: change-color($color-five, $lightness: lightness(#bfbfbf));
+$color-five-30: change-color($color-five, $lightness: lightness(#b3b3b3));
+$color-five-35: change-color($color-five, $lightness: lightness(#a6a6a6));
+$color-five-50: change-color($color-five, $lightness: lightness(#808080));
+$color-five-75: change-color($color-five, $lightness: lightness(#444));
+$color-five-87: change-color($color-five, $lightness: lightness(#222));
 
 $color-black: #000;
 $color-white: #fff;
@@ -176,7 +248,7 @@ $calc-width: calc(50% - 22.5em);
 
 $calc-pad: 35em;
 
-/**
+/**`
  * Breakpoints
  */
 $bp-small: 26em;
@@ -269,8 +341,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	background: $color-gray-05;
-	color: $color-gray-87;
+	background: $color-four-05;
+	color: $color-five-87;
 	font: 120%/1.4 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
 	padding: 0;
 	-webkit-text-size-adjust: 100%;
@@ -281,7 +353,7 @@ body {
  * Links
  */
 a {
-	color: $color-gray-50;
+	color: $color-four-50;
 	text-decoration: none;
     transition: all $anim-speed-quick ease;
 
@@ -294,7 +366,7 @@ a {
     }
 
     &:hover, &:focus {
-        color: $color-gray-87;
+        color: $color-four-75;
     }
 }
 
@@ -372,10 +444,10 @@ h4 {
  * Links within h2/h3
  */
 h2 a, h3 a {
-	color: $color-gray-87;
+	color: $color-five-87;
 
 	&:hover {
-		color: $color-gray-50;
+		color: $color-five-50;
 	}
 }
 
@@ -385,7 +457,7 @@ h2 a, h3 a {
 hr {
     display: block;
     height: 40px;
-    background: $color-gray-05;
+    background: $color-five-05;
     margin: 0;
 }
 
@@ -441,7 +513,7 @@ code {
  * Preformatted Text
  */
 pre {
-	background: $color-gray-87;
+	background: $color-five-87;
 	color: $color-white;
 	padding: 1rem;
 	white-space: pre;
@@ -528,15 +600,15 @@ pre {
  */
 .g-split__feature {
 
-    background: $color-gray-87;
-    color: $color-gray-13;
+    background: $color-one-87;
+    color: $color-five-13;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2rem;
 
     &--light {
-	    background: $color-gray-75;
+	    background: $color-five-75;
     }
 
     @media all and (min-width: 40em) {
@@ -584,7 +656,7 @@ pre {
  * Sidebar Larger Screens
  */
  .sidebar {
-	 background: $color-gray-05;
+	 background: $color-five-05;
 
 	@media all and (min-width: $bp-large) {
 		flex: 1;
@@ -732,7 +804,7 @@ pre {
     padding: 1rem;
     align-items: center;
 	position: relative;
-	background: $color-gray-87;
+	background: $color-five-87;
 }
 
 
@@ -755,7 +827,8 @@ pre {
 	margin: 0;
     display: flex;
     align-items: center;
-    transition: color $anim-speed-quick ease;
+	transition: color $anim-speed-quick ease;
+	color: $color-five-50;
 
     &:hover, &:focus {
         color: $color-white;
@@ -821,12 +894,16 @@ pre {
     display: block;
     font-size: 1.2rem;
     border: 0;
-    color: $color-gray-50;
+    color: $color-five-50;
     font-weight: bold;
     text-transform: lowercase;
     padding: 0;
     background: none;
-    cursor: pointer;
+	cursor: pointer;
+
+	&:hover, &.focus {
+		color: $color-white;
+	}
 
     @media all and (min-width: $bp-header) {
         display: none;
@@ -851,7 +928,7 @@ pre {
 		position: absolute;
 		top: 100%;
 		right: 0;
-		background: $color-gray-87;
+		background: $color-five-87;
 
 		@media all and (min-width: $bp-header) {
 			position: relative;
@@ -919,7 +996,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background: $color-gray-87;
+	background: $color-five-87;
 	position: relative;
     height: 30vh;
 	padding: 0 2rem;
@@ -938,7 +1015,7 @@ main {
     font-size: 2.5rem;
     margin: 0;
     padding: 2rem 0;
-    color: $color-gray-05;
+    color: $color-five-05;
 
     .banner--feature & {
 	    flex: 1;
@@ -989,7 +1066,7 @@ main {
  */
 .docs-nav__section {
 	padding: 1rem 1rem 1rem 2rem;
-	background: $color-gray-05;
+	background: $color-five-05;
 
 	@media all and (min-width: $bp-med) {
 		width: 50%;
@@ -1006,7 +1083,7 @@ main {
 .docs-nav__title {
 	display: block;
 	font-weight: bold;
-	color: $color-gray-87;
+	color: $color-five-87;
 	font-size: 1.4rem;
 	margin-bottom: 0.4em;
 }
@@ -1037,7 +1114,7 @@ main {
 	font-weight: bold;
     font-size: 2rem;
 	padding: 2rem;
-	background: $color-gray-75;
+	background: $color-two-50;
 	color: $color-white;
 	transition: all $anim-speed-quick ease;
 
@@ -1062,11 +1139,12 @@ main {
 		 * First Button Within Button Group
 		 */
         &:nth-of-type(1) {
-	        background: $color-gray-10;
-	        color: $color-gray-87;
+	        background: $color-one-50;
+	        color: $color-five-05;
 
 	        &:hover, &:focus {
-	            background: $color-gray-50;
+				color: $color-white;
+	            background: $color-one-75;
 	        }
 	    }
 
@@ -1074,10 +1152,12 @@ main {
 		 * Second Button Within Button Group
 		 */
 	    &:nth-of-type(2) {
-	        background: url(../assets/atoms-scales.png);
-	        color: $color-gray-10;
+	        background: url(../assets/atoms-scales.png) $color-two-50;
+			background-blend-mode: overlay;
+			color: $color-five-05;
 
 	        &:hover, &:focus {
+				color: $color-white;
 	            background-position: 0 30%;
 	        }
 	    }
@@ -1086,11 +1166,12 @@ main {
 		 * Third Button Within Button Group
 		 */
 	    &:nth-of-type(3) {
-	        background: $color-gray-50;
+	        background: $color-three-50;
+			color: $color-five-05;
 
 	        &:hover, &:focus {
-	            color: $color-gray-05;
-	            background: $color-gray-75;
+				color: $color-white;
+	            background: $color-three-75;
 	        }
 	    }
 
@@ -1105,7 +1186,7 @@ main {
 
     &:hover, &:focus {
         color: $color-white;
-        background: $color-gray-50;
+        background: $color-two-75;
     }
 }
 
@@ -1141,7 +1222,7 @@ main {
 .tabs-wrapper {
 	padding: 0;
 	position: relative;
-	background: $color-gray-87;
+	background: $color-five-87;
 	color: white;
 	width: 100%;
 }
@@ -1174,7 +1255,7 @@ main {
 	}
 
 	&:hover {
-		background: $color-gray-35;
+		background: $color-five-35;
 		transition: background $anim-speed-quick ease;
 	}
 }
@@ -1187,14 +1268,14 @@ main {
 \*------------------------------------*/
 
 .tile {
-    background: $color-gray-05;
+    background: $color-five-05;
     padding: 2rem;
 
 	/**
 	 * Alternative Tile Style 1
 	 */
     &--alt {
-        background: $color-gray-10;
+        background: $color-five-10;
     }
 
 	/**
@@ -1208,7 +1289,8 @@ main {
 	 * Alternative Tile Style Fancy
 	 */
     &--fancy {
-        background: url(../assets/bg-organism-pattern.svg);
+		background: url(../assets/bg-organism-pattern.svg) $color-five-10;
+		background-blend-mode: hard-light;
     }
 
     /**
@@ -1238,7 +1320,7 @@ main {
  * List of Tiles
  */
 .tile-list {
-    background: $color-gray-13;
+    background: $color-five-13;
 }
 
 
@@ -1280,7 +1362,7 @@ main {
 	 * Section Header Within Center Aligned Section
 	 */
 	.section--center & {
-		background: $color-gray-13;
+		background: $color-five-13;
 	}
 }
 
@@ -1303,8 +1385,8 @@ main {
  * Reversed Section
  */
 .section--reversed {
-    background: $color-gray-87;
-    color: $color-gray-13;
+    background: $color-five-87;
+    color: $color-five-13;
 }
 
 
@@ -1383,10 +1465,10 @@ main {
     justify-content: center;
 
     a {
-        color: $color-gray-05;
+        color: $color-five-05;
 
         &:hover, &:focus {
-            color: $color-gray-20;
+            color: $color-five-20;
         }
     }
 }
@@ -1465,7 +1547,7 @@ main {
 	 * Link Within the Selected List Item
 	 */
     .link-list__item--is-selected & {
-		color: $color-gray-87;
+		color: $color-five-87;
 
 		&:hover {
 			color: $color-black;
@@ -1535,7 +1617,7 @@ main {
 	display: inline;
     padding: 0.4rem 0 0;
     font-size: 1.3rem;
-    color: $color-gray-75;
+    color: $color-five-75;
     font-weight: bold;
 
     &:after {
@@ -1574,7 +1656,7 @@ main {
 \*------------------------------------*/
 .c-stacked-block__kicker {
 	font-size: 0.875rem;
-	color: $color-gray-50;
+	color: $color-five-50;
 }
 
 
@@ -1598,7 +1680,7 @@ main {
 
 .footer {
 	clear: both;
-	background: $color-gray-87;
+	background: $color-five-87;
 	position: relative;
 	padding: 1em 0;
 
@@ -1661,7 +1743,7 @@ main {
 	position: relative;
 	display: block;
 	font-weight: bold;
-	background: $color-gray-87;
+	background: $color-five-87;
 	text-align: center;
 	padding: 0.5em 0;
 	text-transform: lowercase;
@@ -1677,14 +1759,14 @@ main {
 .footer__note {
     font-size: 80%;
     margin-bottom: 2rem;
-    color: $color-gray-50;
+    color: $color-five-50;
     text-align: center;
 
 	/**
 	 * Link within the Footer Note
 	 */
     a {
-        color: $color-gray-25;
+        color: $color-five-25;
         text-decoration: underline;
     }
 }
@@ -1786,7 +1868,7 @@ main {
 	align-items: center;
 	justify-content: center;
 	padding: 1.5rem;
-	background: $color-gray-15;
+	background: $color-five-15;
 	color: $color-black;
 	font-weight: bold;
 	animation: pulseIn 1s ease-in;
@@ -1814,8 +1896,8 @@ main {
 	 */
 	blockquote {
 		padding-left: 1rem;
-		border-left: 3px solid $color-gray-75;
-		color: $color-gray-50;
+		border-left: 3px solid $color-five-75;
+		color: $color-five-50;
 		font-size: 1rem;
 	 }
 
@@ -1937,8 +2019,8 @@ main {
 
 
 @keyframes pulseIn {
-	0% { background: $color-gray-15; }
+	0% { background: $color-five-15; }
 	15% { background: $color-gold; }
 	60% { background: $color-gold; }
-	100% { background: $color-gray-15; }
+	100% { background: $color-five-15; }
 }
